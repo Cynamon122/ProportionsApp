@@ -1,9 +1,9 @@
 const CACHE_NAME = "cookie-calculator-v1";
 const urlsToCache = [
-    "/",
-    "/index.html",
-    "/manifest.json",
-    "/service-worker.js"
+    "/ProportionsApp/",
+    "/ProportionsApp/index.html",
+    "/ProportionsApp/manifest.json",
+    "/ProportionsApp/service-worker.js"
 ];
 
 self.addEventListener("install", (event) => {
