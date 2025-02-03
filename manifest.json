@@ -1,7 +1,7 @@
 {
     "name": "Kalkulator Ciasteczek",
     "short_name": "Ciasteczka",
-    "start_url": "/",
+    "start_url": "/ProportionsApp/index.html"
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffcc00",
