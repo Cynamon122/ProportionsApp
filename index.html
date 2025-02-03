@@ -38,6 +38,14 @@
             width: 80px;
             text-align: center;
         }
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
         button {
             background-color: #ff9800;
             color: white;
@@ -60,7 +68,7 @@
 <body>
     <h1>Kalkulator ciasteczek 🍪</h1>
     <p>Podaj liczbę ciasteczek:</p>
-    <input type="number" id="quantity" value="1" min="1" oninput="calculate()">
+    <input type="number" id="quantity" value="1" min="1" inputmode="numeric" pattern="[0-9]*" oninput="calculate()">
     <div class="ingredients">
         <h2>Składniki:</h2>
         <p id="butter">Masło: 4g</p>
